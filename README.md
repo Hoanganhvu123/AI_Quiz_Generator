@@ -42,23 +42,27 @@ An interactive, AI-powered English quiz generator using Streamlit and Google's G
 
 - First, choose the AI provider and model from the available options.
 - Then, enter the corresponding API key for the selected provider.
+
 ![alt text](pubic/image.png)
 
 **Adjust the Number of Questions**
 
 - Use the slider to set the number of questions you want to generate for the quiz.
+
 ![alt text](pubic/image-3.png)
 
 **Select the Knowledge Base**
 
 - You can upload a document (TXT or PDF) containing the content you want to review.
 - Alternatively, you can directly input the content into the provided text area.
+
 ![alt text](pubic/image-1.png)
 
 **Generate Questions**
 
 - Once everything is set up, click on the "Generate Questions" button.
 - The application will generate the quiz questions based on the provided content.
+
 ![alt text](pubic/image-2.png)
 
 
