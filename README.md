@@ -29,10 +29,6 @@ An interactive, AI-powered English quiz generator using Streamlit and Google's G
    pip install -r requirements.txt
    ```
 
-4. **Configure API Key**
-   - Open `src/config.py`
-   - Replace `"YOUR_API_KEY_HERE"` with your actual Google API key
-
 ## 🚀 Usage
 
 1. **Run the application**
@@ -40,11 +36,32 @@ An interactive, AI-powered English quiz generator using Streamlit and Google's G
    streamlit run run.py
    ```
 
-2. **Using the Quiz Generator**
-   - Enter or paste your text in the provided text area
-   - Click "Generate Questions" to create a quiz
-   - Answer the questions and receive immediate feedback
-   - View your final score at the end of the quiz
+2. ### Using the Quiz Generator
+
+**Select Model and Enter API Key**
+
+- First, choose the AI provider and model from the available options.
+- Then, enter the corresponding API key for the selected provider.
+![alt text](image.png)
+
+**Adjust the Number of Questions**
+
+- Use the slider to set the number of questions you want to generate for the quiz.
+![alt text](image-3.png)
+
+**Select the Knowledge Base**
+
+- You can upload a document (TXT or PDF) containing the content you want to review.
+- Alternatively, you can directly input the content into the provided text area.
+![alt text](image-1.png)
+
+**Generate Questions**
+
+- Once everything is set up, click on the "Generate Questions" button.
+- The application will generate the quiz questions based on the provided content.
+![alt text](image-2.png)
+
+
 
 ## 📁 Project Structure
 
